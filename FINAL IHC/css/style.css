@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+   color:#000000; 
+}
+h2{
+    color: #848484;
+}
+h3{
+    color:  #bbbbbb;
+}
+p{
+    color:#3d3d3d;
+
+}
+h1,h2,h3{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+header img{
+    width: 110px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+.jumbotron{
+    margin-top: 20px;
+    background-image:  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),url("../images/jumbotron.jpg");
+    height: 80vh;
+    color: white; 
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-jumbotron{
+    z-index: 1;
+    text-align: center;
+}
+
+.row{
+    padding: 0px !important;
+}
+.sections img{
+    height: 350px;
+}
+
+.valor-offert .image-offert img{
+    height: 200px;
+}
+
+footer .icons img{
+    width: 60px;
+    padding: 10px;
+}
+footer p{
+    font-weight: bold;
+}
